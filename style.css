@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin:0;
+}
+body{
+  font-family: 'Mukta', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,121,95,1) 69%, rgba(0,212,255,1) 100%);
+  color: antiquewhite;
+}
+#app{
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  align-items: center;
+}
+.block{
+  width:450px;
+  height:500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(9px);
+  border-radius: 30px;
+  padding:30px;
+  vertical-align: center;
+  box-shadow: 10px 10px lightslategray;
+  border-color: antiquewhite;
+}
+.item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin:8px;
+}
+.req{
+  margin:30px;
+  width: 350px;
+}
+.upper{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+   justify-content: center;
+}
+h1,.inp,#points{
+  margin-bottom: 10px;
+}
+.inp{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 30px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#points{
+  width: 360px;
+  height: 30px;
+}
+.display{
+  flex-grow: 1;
+  width:340px;
+  height: 105%;
+
+
+}
+.material-symbols-outlined{
+  background-color: white;
+  color: darkslategrey;
+  cursor: pointer;
+
+}
+.final {
+  width: 360px;
+  height: 30px;
+  font-family: Constantia;
+  font-size: larger;
+  height: 40px;
+  cursor: pointer;
+  color: antiquewhite;
+  border-radius: 30px;
+  background: rgb(63,23,12);
+  background: linear-gradient(90deg, rgba(63,23,12,1) 0%, rgba(10,92,91,1) 50%, rgba(31,3,3,1) 100%);
+}
